@@ -3,17 +3,15 @@ var region = document.querySelector('#region');
 var regionName = document.querySelector('.regionName');
 var info = document.querySelector('.info');
 var link = document.querySelectorAll('.link');
-
+for (var i=0; i<link.length; i++){
+    link[i].addEventListener('click',changZone,false);
+}
 //監聽DOM
 region.addEventListener('change', change, false);
 
 
 
 //function
-for (var i=0; i<link.length; i++){
-    link[i].addEventListener('click',changZone,false);
-}
-
 function change() {
     var str = '';
     var records = data.result.records;
