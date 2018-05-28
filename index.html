@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kaohsiung Travel Information</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosanstc.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <h1>高雄旅遊資訊</h2>
+                <div class="selectBox">
+                    <select name="region" id="region">
+                        <option value="- 請選擇行政區 -">- 請選擇行政區 -</option>
+                        <option value="三民區">三民區</option>
+                        <option value="內門區">內門區</option>
+                        <option value="美濃區">美濃區</option>
+                        <option value="大樹區">大樹區</option>
+                        <option value="小港區">小港區</option>
+                        <option value="六龜區">六龜區</option>
+                        <option value="仁武區">仁武區</option>
+                        <option value="左營區">左營區</option>
+                        <option value="田寮區">田寮區</option>
+                        <option value="永安區">永安區</option>
+                        <option value="甲仙區">甲仙區</option>
+                        <option value="鼓山區">鼓山區</option>
+                        <option value="杉林區">杉林區</option>
+                        <option value="那瑪夏">那瑪夏</option>
+                        <option value="岡山區">岡山區</option>
+                        <option value="高雄市">高雄市</option>
+                        <option value="前鎮區">前鎮區</option>
+                        <option value="新興區">新興區</option>
+                        <option value="苓雅區">苓雅區</option>
+                        <option value="茂林區">茂林區</option>
+                        <option value="茄萣區">茄萣區</option>
+                        <option value="梓官區">梓官區</option>
+                        <option value="旗津區">旗津區</option>
+                        <option value="桃源區">桃源區</option>
+                        <option value="楠梓區">楠梓區</option>
+                        <option value="前金區">前金區</option>
+                        <option value="鳳山區">鳳山區</option>
+                    </select>
+                </div>
+        </div>
+    </div>
+
+    <div class="hotZone">
+        <h3>熱門行政區</h3>
+        <ul class="list clearfix">
+            <li>
+                <a class="link" href="大樹區">大樹區</a>
+            </li>
+            <li>
+                <a class="link" href="三民區">三民區</a>
+            </li>
+            <li>
+                <a class="link" href="內門區">內門區</a>
+            </li>
+            <li>
+                <a class="link" href="苓雅區">苓雅區</a>
+            </li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <section class="content">
+        <h2 class="regionName"></h2>
+        <div class="container info">
+        </div>
+    </section>
+    
+    <div class="footer">
+        <div class="container">
+            <h5>高雄旅遊網</h5>
+            <h5>資料來源: 高雄市政府</h5>
+        </div>
+    </div>
+    <script src="js/JSON.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
